@@ -1,0 +1,20 @@
+using System;
+
+class HomeTask2 {
+  public static void Main() {
+    Console.WriteLine(OneCounter(121));
+  }
+  
+  static int OneCounter(int num){
+      int counter = 0 ;
+        while(num > 0){
+         if(num % 2 == 1){
+             counter++;
+         }
+         num = num / 2 ;
+        }
+      
+      return counter;
+  }
+  
+}
